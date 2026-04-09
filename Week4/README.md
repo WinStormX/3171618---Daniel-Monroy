@@ -1,15 +1,17 @@
-Week 2 - Proyecto CRUD Ferretería Lubix 🛠️
+Week 4 - Proyecto CRUD Ferretería Lubix 🛠️
 📋 Descripción
-Aplicación inicial en React + TypeScript para gestionar productos de una ferretería. En esta semana se construye la base del CRUD, con los primeros componentes y configuración del proyecto.
+Aplicación en React + TypeScript que extiende el CRUD básico de semanas anteriores. En esta semana se incorporan mejoras en la organización de componentes y validación de formularios.
 
 🎯 Funcionalidades
 ➕ Agregar productos con nombre, categoría, precio y stock.
 
 📋 Listar productos registrados.
 
-✏️ Editar productos existentes.
+✏️ Editar productos existentes con datos prellenados.
 
 🗑️ Eliminar productos de la lista.
+
+✅ Validación básica en formularios (campos requeridos, valores positivos).
 
 🏗️ Tecnologías
 React
@@ -32,17 +34,20 @@ src/
 ├── types/
 │   └── index.ts
 ├── components/
+│   ├── Header.tsx
 │   ├── ToolForm.tsx
 │   ├── ToolList.tsx
-│   └── ToolCard.tsx
+│   ├── ToolCard.tsx
 └── styles/
     └── App.css
 ✅ Checklist
-CRUD básico funcionando
+CRUD completo funcionando
+
+Validación de formularios implementada
 
 Código tipado en TypeScript
 
-Componentes iniciales separados
+Componentes separados y reutilizables
 
 Estado manejado con useState
 
